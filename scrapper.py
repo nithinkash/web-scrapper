@@ -11,13 +11,6 @@ soup=BeautifulSoup(html,'html.parser')
 name_box = soup.find('a', attrs={'class': 'b-qt qt_118824 oncl_q'})
 name = name_box.text.strip() # strip() is used to remove starting and trailing
 
-print ('//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////')
-print ('//	welcome to the daily quotes		 ')
-print ('//		todays Love quote 			 ')
-print ('//	{}{{}{}{}{}{}{}{{}{}{}{}{}{}{}{}{}{}{}	 ')
-print (name)				
-print ('//						 ')	
-print ('//						 ')	
-print ('/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////')
+print(name)
 
 
